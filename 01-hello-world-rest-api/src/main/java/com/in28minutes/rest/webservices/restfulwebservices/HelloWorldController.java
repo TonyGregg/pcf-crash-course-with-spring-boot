@@ -9,13 +9,13 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World - V2 - Green";
+		return "Hello World - V5 - Blue";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
 		//throw new RuntimeException("Some Error has Happened! Contact Support at ***-***");
-		return new HelloWorldBean("Hello World");
+		return new HelloWorldBean("Hello World Message");
 	}
 	
 	///hello-world/path-variable/in28minutes
